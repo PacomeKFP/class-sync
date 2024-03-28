@@ -1,0 +1,70 @@
+nav{
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  background: #fff;
+  width: 320px;
+  overflow: hidden;
+  box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+
+nav .logo{
+  text-align: center;
+  display: flex;
+  padding-left: 20px;
+}
+
+nav a.logo.active, nav a.logo:hover{
+  background-color: #fff  ;
+}
+
+nav .logo img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+nav .logo span{
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+nav a{
+  position: relative;
+  color: rgb(85, 83, 83);
+  font-size: 14px;
+  display: table;
+  width: 280px;
+  padding: 10px;
+}
+
+nav a.active{
+  background: #eee;
+}
+
+nav a:hover{
+  background: #eeeeee89;
+}
+
+nav .logout{
+  position: absolute;
+  bottom: 0;
+}
+
+nav .fas{
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.nav-item{
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+}

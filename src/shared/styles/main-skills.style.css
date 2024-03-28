@@ -1,0 +1,42 @@
+/* .main-top i{
+    position: absolute;
+    right: 0;
+    margin: 10px 30px;
+    color: rgb(110, 109, 109);
+    cursor: pointer;
+} */
+
+.main-skills{
+  display: flex;
+  margin-top: 20px;
+  border-radius: 10px;
+  min-height: 95%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #ffffff81;
+  align-content: start;
+
+  padding: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.main-top{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.main-top ul{
+  list-style: none;
+  display: flex;
+}
+
+.main-top ul li{
+  margin: 10px;
+  color: gray;
+  cursor: pointer;
+}
+
+.main-top ul .active{
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+

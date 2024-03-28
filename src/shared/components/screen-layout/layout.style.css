@@ -1,0 +1,10 @@
+.app{
+  display: flex;
+}
+
+
+.main{
+  position: relative;
+  padding: 20px;
+  width: 100%;
+}

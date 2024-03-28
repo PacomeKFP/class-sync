@@ -1,0 +1,33 @@
+.card-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: large;
+  font-weight: 600;
+
+}
+
+.card-info:first-child{
+  text-align: left;
+}
+.card-info:last-child{
+  text-align: right;
+}
+
+.card-actions{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.bid{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box.current{
+  border: 1px solid greenyellow;
+  background-color: rgb(221, 255, 0);
+}

@@ -1,0 +1,28 @@
+.add-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fffa;
+    transition: 300ms ease;
+    cursor: pointer;
+}
+
+.add-card:hover{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.add-card i{
+    color: gray;
+    transition: 300ms ease;
+    font-size: large;
+    font-weight: 600;
+}
+.add-card:hover i{
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+}
+

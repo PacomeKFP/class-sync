@@ -1,0 +1,75 @@
+
+.main-skills .card-register{
+    width: 500px;
+    height: 500px;
+    min-width: 100%;
+    margin: 10px;
+    background: #fff;
+    text-align: justify;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.main-skills .card-register-student{
+    width: 25%;
+    height: 500px;
+    min-width: 100%;
+    margin: 10px;
+    background: #fff;
+    text-align: justify;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+ 
+}
+*/
+
+*/
+.main-skills .card-register  .emploi-de-temps{
+
+    border: 1px solid #070707;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 8px;
+    border-spacing: 0px;
+    border-collapse: separate;
+    width: 100%;
+}
+
+button{
+    background: orangered;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.main-skills td {
+    width: 10%;
+    height: 50px;
+}
+
+
+input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main-skills tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+.main-skills tr:nth-child(odd) {
+    background-color: #ffffff; 
+}
+.main-connexion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
